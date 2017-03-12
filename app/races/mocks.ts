@@ -1,0 +1,37 @@
+import { Race } from './race';
+
+export const RACES: Race[] = [
+  {
+    id: 1,
+    name: 'Daytona',
+    date: new Date('2017-09-04T14:00:00'),
+    about: 'Race through the ruins of an ancient Florida battle arena.',
+    entryFee: 29.99,
+    isRacing: true,
+    tickets: 0,
+    image: 'http://lorempixel.com/250/250/transport/4',
+    imageDescription: 'Image Description'
+  },
+  {
+    id: 2,
+    name: 'Nascar',
+    date: new Date('2017-10-13T18:00:00'),
+    about: 'Nascar say it all by itself.',
+    entryFee: 78.50,
+    isRacing: false,
+    tickets: 87,
+    image: 'http://lorempixel.com/250/250/transport/5',
+    imageDescription: 'Image description'
+  },
+  {
+    id: 2,
+    name: 'Le Mans 24',
+    date: new Date('2017-10-13T20:00:00'),
+    about: 'Take some food and blanket. Le Mans is a 24-hour race.',
+    entryFee: 110,
+    isRacing: true,
+    tickets: 1154,
+    image: 'http://lorempixel.com/250/250/transport/6',
+    imageDescription: 'Image description'
+  }
+];

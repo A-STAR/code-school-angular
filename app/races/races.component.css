@@ -1,0 +1,12 @@
+.description {
+  color: #444;
+  font-size: small;
+}
+
+.fee {
+  font-weight: bold;
+}
+
+.racing {
+  filter: brightness(145%) hue-rotate(30deg);
+}
